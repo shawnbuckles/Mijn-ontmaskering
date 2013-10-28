@@ -88,6 +88,10 @@ section {
     padding: 0;
 }
 
+iframe {
+    padding: 40px;
+}
+
 .story-content {
     margin: 0 auto;
 }
