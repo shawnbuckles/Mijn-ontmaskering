@@ -62,11 +62,12 @@ blockquote {
     line-height: 1em;
     letter-spacing: -0.05em;
     font-weight: normal;
-    text-align: center;
+    text-align: center;]
+    margin-top: 2em;
 }
 
 p {
-    font-size: 0.55em;
+    font-size: 0.6em;
     margin-bottom: 40px;
 }
 
@@ -102,6 +103,22 @@ section {
     width: 96%;
     margin: 0 auto;
     padding: 40px 80px;
+}
+
+.publication-sidenote {
+    cursor: pointer;
+    left: 1150px;
+    line-height: 1.1;
+    padding: 0 0 0 30px;
+    position: absolute;
+    width: 230px;
+}
+
+.publication-sidenote a {
+    font-size: 0.55em;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
 }
 
 /* ---------------------- */
@@ -141,11 +158,21 @@ section {
     margin-bottom: 2em;   
 }
 
+.loslaten {
+    background: #90AB76;
+}
+
 .confessies {
-    margin-bottom: 2em;
+    background: #567EBB;
+}
+
+.confessies blockquote {
+    padding-top: 2em;
+    color: white;
 }
 
 .slot .copy-width{
-    background: none;
+    padding-top: 2em;
+    margin-bottom: 2em;   
 }
 /* ---------------------- */
