@@ -62,13 +62,12 @@ blockquote {
     line-height: 1em;
     letter-spacing: -0.05em;
     font-weight: normal;
-    text-align: center;
+    text-align: center;]
 }
 
 p {
-    font-size: 0.55em;
+    font-size: 0.6em;
     margin-bottom: 40px;
-    padding-left: 20px;
 }
 
 a {
@@ -105,6 +104,22 @@ section {
     padding: 40px 80px;
 }
 
+.publication-sidenote {
+    cursor: pointer;
+    left: 1150px;
+    line-height: 1.1;
+    padding: 0 0 0 30px;
+    position: absolute;
+    width: 230px;
+}
+
+.publication-sidenote a {
+    font-size: 0.55em;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
 /* ---------------------- */
 
 /* sections */
@@ -129,6 +144,47 @@ section {
 
 .verandering {
     margin-top: -100px;
+    margin-bottom: 2em;
+}
+
+.cola {
+    background: url('../img/cola.jpg') no-repeat bottom right;
+    margin-bottom: 2em;
+}
+
+.middelmatigheid {
+    background: black;
+    margin-bottom: 2em;   
+}
+
+.loslaten {
+    background: #90AB76;
+}
+
+.confessies {
+    background: #567EBB;
+}
+
+.confessies blockquote {
+    padding-top: 2em;
+    color: white;
+}
+
+.slot .copy-width{
+    padding-top: 2em;
+    margin-bottom: 2em;   
+}
+h2.link {
+    background: url('../img/glyph_link.png') no-repeat right center;
+}
+
+h2.link a {
+    text-decoration: none;
+    color: black;
+}
+
+h2.link a:hover{
+    color: #90AB76;
 }
 
 /* ---------------------- */
