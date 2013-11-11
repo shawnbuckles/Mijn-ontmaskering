@@ -68,7 +68,6 @@ blockquote {
 p {
     font-size: 0.55em;
     margin-bottom: 40px;
-    padding-left: 20px;
 }
 
 a {
@@ -129,10 +128,24 @@ section {
 
 .verandering {
     margin-top: -100px;
+    margin-bottom: 2em;
 }
 
 .cola {
-        background: url('../img/cola.jpg') no-repeat right;
+    background: url('../img/cola.jpg') no-repeat bottom right;
+    margin-bottom: 2em;
 }
 
+.middelmatigheid {
+    background: black;
+    margin-bottom: 2em;   
+}
+
+.confessies {
+    margin-bottom: 2em;
+}
+
+.slot .copy-width{
+    background: none;
+}
 /* ---------------------- */
