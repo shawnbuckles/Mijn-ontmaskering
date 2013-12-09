@@ -79,6 +79,10 @@ a {
     padding-bottom: .06em;
 }
 
+.high {
+    padding: 2em 0;
+}
+
 /* ---------------------- */
 
 /* lay-out */
@@ -102,22 +106,6 @@ section {
     width: 96%;
     margin: 0 auto;
     padding: 40px 80px;
-}
-
-.publication-sidenote {
-    cursor: pointer;
-    left: 1150px;
-    line-height: 1.1;
-    padding: 0 0 0 30px;
-    position: absolute;
-    width: 230px;
-}
-
-.publication-sidenote a {
-    font-size: 0.55em;
-    color: white;
-    text-decoration: none;
-    font-style: italic;
 }
 
 /* ---------------------- */
@@ -173,18 +161,6 @@ section {
 .slot .copy-width{
     padding-top: 2em;
     margin-bottom: 2em;   
-}
-h2.link {
-    background: url('../img/glyph_link.png') no-repeat right center;
-}
-
-h2.link a {
-    text-decoration: none;
-    color: black;
-}
-
-h2.link a:hover{
-    color: #90AB76;
 }
 
 /* ---------------------- */
