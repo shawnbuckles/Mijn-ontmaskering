@@ -80,7 +80,8 @@ a {
 }
 
 .high {
-    margin: 2em 0;
+    margin: 1em 0 1em 0;
+    font-size: 4em;
 }
 
 /* ---------------------- */
@@ -113,26 +114,28 @@ section {
 /* sections */
 
 .head {
-    background: #EEE;
+    background: #9C3B3B;
 }
-
 .head h1 {
     font-family: Skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
     line-height: 1em;
-    color: #333;
+    color: #C45858;
     font-size: 2.8em;
 }
+.head p {
+    color: #C45858;
+}
 
-.lead {
-    background: #000 url('../img/lead.jpg');
-    height: 400px;
+.head .copy-width {
+    padding: 200px 80px;
 }
 
 /* ---------------------- */
 
 .verandering {
-    margin-top: -100px;
+    background: #000 url('../img/lead.jpg');
     margin-bottom: 2em;
+    padding-top: 200px;
 }
 
 .cola {
@@ -155,12 +158,16 @@ section {
 
 .confessies blockquote {
     padding-top: 2em;
-    color: white;
+    color: #C5E0DC;
+}
+
+.slot {
+    background: #C45858;
+    padding-bottom: 5em;
 }
 
 .slot .copy-width{
     padding-top: 2em;
-    margin-bottom: 2em;   
 }
 
 /* ---------------------- */
